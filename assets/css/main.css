@@ -1591,8 +1591,8 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #777;
-		font-weight: 700;
+		color: #888888;
+		font-weight: 500;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
 	}
@@ -1606,6 +1606,7 @@
 	h2 {
 		font-size: 2em;
 		line-height: 1.5em;
+        margin-bottom: 17px;
 	}
 
 	h3 {
@@ -1726,14 +1727,16 @@
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #5089A6;
 		font-size: 3.5em;
+        font-family: 'Julius Sans One', sans-serif;
+
 	}
 
 		header.major h2 + p {
-			color: #777;
+			color: #888888;
 			font-size: 1.75em;
-			font-weight: 700;
+			font-weight: 500;
 			margin-top: -0.75em;
 		}
 
@@ -2379,7 +2382,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #4acaa8;
+			background-color: #5089A6;
 			color: #ffffff !important;
 		}
 
@@ -2461,7 +2464,7 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		background: #5089A6;
 		color: #d1f1e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2550,7 +2553,7 @@
 			}
 
 				#header > nav ul li {
-					border-top: solid 2px #5ccfb0;
+					border-top: solid 2px #5089A6;
 					display: block;
 					padding: 0;
 				}
@@ -2569,7 +2572,7 @@
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #4acaa8 !important;
+							color: #5089A6 !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -2600,8 +2603,8 @@
 /* One */
 
 	#one:before {
-		background-image: url("../../images/banner.jpg");
-		background-position: top right;
+		background-image: url("../../images/golfcourse.jpg");
+		background-position: 0px -150px;
 		background-repeat: no-repeat;
 		background-size: cover;
 		content: '';
